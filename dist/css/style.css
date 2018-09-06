@@ -1,0 +1,11 @@
+#panel, #flip,#panel2, #flip2 {
+   
+    text-align: center;
+    background-color: #e5eecc;
+    
+}
+
+#panel,#panel2 {
+    padding: 50px;
+    display: none;
+}
