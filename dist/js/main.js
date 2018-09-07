@@ -9,3 +9,19 @@ $(document).ready(function(){
         $("#panel2").slideToggle("slow");
     });
 });
+
+
+$(document).ready(setTimeout(function(){
+    
+    $("#notification").animate({top: '10%'});
+     setTimeout(function() {
+      $("#notification").fadeOut().empty();
+    }, 5000);
+
+},2000));
+
+
+
+// $("button").click(function(){
+//     $("div").animate({left: '250px'});
+// });
