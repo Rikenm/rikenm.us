@@ -18,7 +18,7 @@ $(document).ready(setTimeout(function(){
       $("#notification").fadeOut().empty();
     }, 5000);
 
-},2000));
+},500));
 
 
 
