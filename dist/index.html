@@ -40,9 +40,9 @@
                         <!-- <a class="nav-link" href="#">About Me <span class="sr-only">(current)</span></a> -->
                         <a class="nav-link" href="#About">About Me</a>
                     </li>
-                    <li class="nav-item">
+                    <!-- <li class="nav-item">
                         <a class="nav-link" href="#resume">Resume</a>
-                    </li>
+                    </li> -->
                     <li class="nav-item">
                         <a class="nav-link" href="#projects">Projects</a>
                     </li>
@@ -72,7 +72,7 @@
                             <i class="fab fa-github fa-2x" style="color:white"></i>  
                             </a>
                     </div>
-                    <p class="lead white-text">iOS and Android Developer</p>
+                    <p class="lead white-text">Software Engineer</p>
 
           
         
@@ -90,8 +90,7 @@
 
     <div class="container-fluid" style="color:#151564;text-align: center;font-size: 110%; margin-bottom: 30px ;margin-top: 50px;background-color:  #E4EAEE; padding-left: 50px; padding-right: 50px">
             <!-- Content here -->
-            Hi, welcome to my website. I am currently a Mobile developer residing in Greater Boston area. I recieved my bachelors in Computer Science(major) and Biology(minor) from Boston University in May of 2018. My interests are in Android and iOS Development. 
-             
+            Hi, welcome to my portfolio website. I am currently a software engineer residing in Tampa, Florida. I recieved my bachelors in Computer Science from Boston University in May of 2018. I have been working at PwC as a software engineer from 2019. I primarly work with .Net Core, React/Redux and Kafka in PwC. 
         </div>
    
      <!--Jumbotron-->      
@@ -106,7 +105,7 @@
             <!-- Content here -->
             <img src="./img/riken.jpeg"  class="rounded-circle img-fluid"  alt="me" height="200" width="200" style="margin-bottom: 30px">
             <h5>Riken</h5>
-            <h6 style="color: gray">Mobile Developer</h6>
+            <h6 style="color: gray">Software Engineer</h6>
           </div>
 <!--Jumbotron-->
 
@@ -115,7 +114,7 @@
         <!-- Content here -->
 
         <div class="row " style="padding-bottom: 45px;">
-                <div class="col-lg-4 col-md-4">Location: Revere, MA</div>
+                <div class="col-lg-4 col-md-4">Location: Ready to move</div>
                 <div class="col-lg-4 col-md-4">Education: Boston University, May 2018</div>
                 <div class="col-lg-4 col-md-4">Major: Computer Science</div>
         </div>
@@ -135,17 +134,17 @@
 <!--Jumbotron-->
     
 
-<div id="resume" class="container-fluid" style="color:#fff;background-color: #81BDE8">
-        <!-- Content here -->
+<!-- <div id="resume" class="container-fluid" style="color:#fff;background-color: #81BDE8">
+        
         <div style="color:#fff;padding-left: 50px;padding-top: 30px;font-weight: 500" >
              
         </div>
       
-</div>
+</div> -->
 
 
-    <div  class="container-fluid text-center" style="color:#fff;background-color: #81BDE8; padding-bottom: 50px">
-            <!-- Content here -->
+    <!-- <div  class="container-fluid text-center" style="color:#fff;background-color: #81BDE8; padding-bottom: 50px">
+           
             <button id="flip" type="button" class="btn btn-primary ">Show Resume</button>
           
     </div>
@@ -155,7 +154,7 @@
         <img class="img-fluid" src="./img/ResumeV1.1.1@3x.png"  >
     
     
-    </div>
+    </div> -->
 
     <div id="projects" class="container-fluid" style="color:#fff;background-color: #F3F3F3">
             <!-- Content here -->
@@ -172,25 +171,28 @@
 
     <div id="panel2"  class="container-fluid text-center" style="background-color:  #F3F3F3; padding-bottom: 85px">
         
-            <div class="row" style="margin-bottom: 80px">
-                <div class="col-sm-12   col-md-12  col-lg-8 offset-lg-2 col-xs-10 offset-xs-2">
+        <div class="row" style="margin-bottom: 80px">
 
-                    <img src="./img/khoji.jpeg" class="img-fluid">
+            <div class="col-sm-12   col-md-12  col-lg-8 offset-lg-2 col-xs-10 offset-xs-2">
+
+                    <img src="./img/Artboard.png" class="img-fluid">
                     <div style="background-color:#fff">
-                           <!-- <a href=" https://www.khojinepal.com"> https://www.khojinepal.com </a>
-                            <br> -->
+                           
                           <p>
                             <b>
-                                    <a href=" https://www.khojinepal.com" target="_blank">  Khoji (React.js/Node.js/MysQL): 
+                                    <a href=" https://play.google.com/store/apps/details?id=com.rikenmaharjan.y2yc" target="_blank">  Track Metro: 
                                         </a>
                                     
-                                    </b>  A website, for Nepalese, to  post their listing. I decided to built this website because  currently Nepalese have to pay 5-7$ to a inferior website to even post the ad.It's in the testing phase.    
+                                    </b>  An ios app where you can favorite a station from LA metro and recieve a push notification when you reach near the said favorite station with the latest time. App uses iOS geo-fence to track if user is nearby the station.<br/>
+                                     <span style="font-weight: 500;">Stack: </span> .Net Core backend hosted in DigitalOcean Droplet (Ubuntu VPS) through Nginx. Native Swift iOS App. No database but I do cache all the request to the API for 16 seconds in the memory itself so that the API does not overload "LA Metro's API". I also cache the time in the iOS App itself for 16 seconds.
+                                     
+                                      
                         </p>  
                     </div>
                 </div>
-                   
-            </div>
 
+
+    </div>
            
 
             <div class="row" style="margin-bottom: 80px">
@@ -206,7 +208,8 @@
                                             <a href=" https://play.google.com/store/apps/details?id=com.rikenmaharjan.y2yc" target="_blank">  Y2Y Mobile: 
                                                 </a>
                                             
-                                            </b>  An android app, for Y2Y home Shelter, to gather information about their stay in the home shelter. Guest can even look at their To-do List and events.   
+                                            </b>  An android app, for Y2Y home Shelter, to gather information about their guests' stay in the home shelter. Guest can even look at their To-do List and events. <br/>
+                                            <span style="font-weight: 500;">Stack: </span> Node Express backend hosted in Heroku. Native Java Android App. Salesforce for the database. 
                                 </p>  
                             </div>
                         </div>
@@ -214,23 +217,46 @@
 
             </div>
 
-
             <div class="row">
-                    <div class="col-sm-12   col-md-12  col-lg-8 offset-lg-2 col-xs-10 offset-xs-2">
+                <div class="col-sm-12   col-md-12  col-lg-8 offset-lg-2 col-xs-10 offset-xs-2">
 
-                            <img src="./img/ios.jpeg" class="img-fluid">
-                            <div style="background-color:#fff">
-                                   <!-- <a href=" https://www.khojinepal.com"> https://www.khojinepal.com </a>
-                                    <br> -->
-                                  <p>
-                                    <b>
-                                            <a href=" https://itunes.apple.com/us/app/barcode-price/id1435086716?mt=8" target="_blank">  Barcode Price: 
-                                                </a>
-                                            
-                                            </b>  An iOS app that would scan Barcode and give you MSRP of the product. We consume Walmart open API to get the information and store it in the Coredata as the history object.  
-                                </p>  
-                            </div>
+                        <img src="./img/ios.jpeg" class="img-fluid">
+                        <div style="background-color:#fff">
+                               <!-- <a href=" https://www.khojinepal.com"> https://www.khojinepal.com </a>
+                                <br> -->
+                              <p>
+                                <b>
+                                        <a href=" https://itunes.apple.com/us/app/barcode-price/id1435086716?mt=8" target="_blank">  Barcode Price: 
+                                            </a>
+                                        
+                                        </b>  An iOS app that would scan Barcode and give you MSRP of the product. We consume Walmart open API to get the information and store it in the Coredata as the history object.  
+                            </p>  
                         </div>
+                    </div>
+
+        </div>
+
+
+           
+
+            <div class="row" style="margin-bottom: 80px">
+
+                <div class="col-sm-12   col-md-12  col-lg-8 offset-lg-2 col-xs-10 offset-xs-2">
+
+                        <img src="" class="img-fluid">
+                        <div style="background-color:#fff">
+                              
+                              <p>
+                                <b>
+                                        <a href="" target="_blank">  PwC Assurance Digital: 
+                                            </a>
+                                        
+                                        </b>  Led a team to make PwC internal Assurance Digital website. Sadly, I won't be able to show it here as I do not own the copyright for the project.<br/>  
+                                          
+                            </p>  
+                        </div>
+                </div>
+
 
             </div>
         
@@ -240,7 +266,7 @@
      <div id="footer";class="container-fluid" style="background-color: #4E5B9C; padding-bottom: 50px">
             <!-- Content here -->
             <div style="color:white;padding-left: 50px;padding-top: 30px;font-weight: 300" >
-                  ©Riken Maharjan
+                  ©Riken Maharjan 2021
             </div>
           
     </div>
@@ -249,17 +275,6 @@
        
       
   
-        
-        
-   
-
-
-    
-
-
-
-
-
 
 
     <!-- SCRIPTS -->
